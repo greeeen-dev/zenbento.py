@@ -8,5 +8,8 @@ dynamic = ["version", "dependencies"]
 license = {text = "MIT License"}
 requires-python = ">=3.9"
 
+[tool.setuptools]
+packages = ["zenbento"]
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
