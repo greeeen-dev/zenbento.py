@@ -1,6 +1,6 @@
 import logging
 import tinycss2
-from zenbento import bentoscss as scss
+from zenbento import bentoscss as scss # pylint: disable=E0401
 from tinycss2 import ast as css_ast
 from urllib.parse import urlparse
 

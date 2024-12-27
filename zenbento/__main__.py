@@ -3,7 +3,7 @@ import sys
 import json
 import logging
 import shutil
-from zenbento import logger, merger, bentoscss as scss
+from zenbento import logger, merger, bentoscss as scss # pylint: disable=E0401
 
 args = sys.argv[1:]
 logger = logger.buildlogger('zenbento', 'merger', logging.DEBUG)
