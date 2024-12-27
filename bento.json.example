@@ -1,0 +1,10 @@
+{
+  "package": {
+    "name": "Zen Rice",
+    "author": "John Doe",
+    "version": "0.0.1",
+    "source": "https://github.com/zen-browser/desktop",
+    "license_filepath": "LICENSE",
+    "include": ["userChrome", "userContent"]
+  }
+}
